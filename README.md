@@ -6,20 +6,23 @@
 This project demonstrates the automation of bus ticket booking on the AbhiBus website using Selenium WebDriver and Cucumber with Java. The automation script performs actions such as opening the website, entering travel details, selecting bus seats, and validating the seat selection process.
 
 # Features
-1 Open Website:
+1. Open Website:
 
 The script initiates the Firefox browser using WebDriverManager.
 It navigates to the AbhiBus website and maximizes the browser window for better visibility.
-2 Enter Travel Credentials:
+
+2. Enter Travel Credentials:
 
 Select the source and destination stations (Bangalore to Hyderabad) by interacting with dropdown menus.
 Choose the travel date (e.g., Tomorrow) for the bus journey.
-3 Select Bus Seat:
+
+3. Select Bus Seat:
 
 Applies a price drop filter to narrow down bus options.
 Selects a bus partner from the available options.
 Chooses up to three bus partners for seat selection.
-4 Validate Seat Selection:
+
+4. Validate Seat Selection:
 
 Clicks the "Show Seats" button for the chosen bus.
 Selects a specific seat (e.g., 9U) from the available seats.
