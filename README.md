@@ -6,30 +6,30 @@
 This project demonstrates the automation of bus ticket booking on the AbhiBus website using Selenium WebDriver and Cucumber with Java. The automation script performs actions such as opening the website, entering travel details, selecting bus seats, and validating the seat selection process.
 
 # Features
-# Open Website:
+1 Open Website:
 
 The script initiates the Firefox browser using WebDriverManager.
 It navigates to the AbhiBus website and maximizes the browser window for better visibility.
-# Enter Travel Credentials:
+2 Enter Travel Credentials:
 
-Selects the source and destination stations (Bangalore to Hyderabad) by interacting with dropdown menus.
-Chooses the travel date (e.g., Tomorrow) for the bus journey.
-# Select Bus Seat:
+Select the source and destination stations (Bangalore to Hyderabad) by interacting with dropdown menus.
+Choose the travel date (e.g., Tomorrow) for the bus journey.
+3 Select Bus Seat:
 
 Applies a price drop filter to narrow down bus options.
 Selects a bus partner from the available options.
 Chooses up to three bus partners for seat selection.
-# Validate Seat Selection:
+4 Validate Seat Selection:
 
 Clicks the "Show Seats" button for the chosen bus.
 Selects a specific seat (e.g., 9U) from the available seats.
 Validates the selection by interacting with additional elements on the page.
 # Technologies Used
-Java: The core programming language for writing the test scripts.
+Java: The core programming language used to write test scripts.
 Selenium WebDriver: For automating browser actions.
-Cucumber: For behavior-driven development (BDD) and creating readable test scenarios.
+Cucumber: This is for behaviour-driven development (BDD) and creating readable test scenarios.
 WebDriverManager: For managing browser drivers.
-JUnit/TestNG: For running the test scenarios (not explicitly mentioned but commonly used with Cucumber).
+JUnit/TestNG: This is for running the test scenarios (not explicitly mentioned but commonly used with Cucumber).
 Setup Instructions
 
 # Install Dependencies:
